@@ -1141,7 +1141,7 @@ blockquote {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:15% 15%;
   background-size: cover;
 }
 @media (max-width: 1199px) {
@@ -1169,6 +1169,12 @@ blockquote {
   padding-bottom: 70px;
   border-bottom: 1px solid #585d65;
   z-index: 12;
+   
+}
+.about,.service ,.resume,.skills, .contacts{
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .section:last-child {
   border-bottom: none;
@@ -1257,6 +1263,11 @@ blockquote {
   .section {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .section .titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 720px) {
@@ -2958,6 +2969,7 @@ object {
   .popup-box {
     width: 320px;
   }
+ 
 }
 .popup-box .image {
   height: 100%;
