@@ -88,7 +88,7 @@ body {
   content: "";
   position: fixed;
   left: 45%;
-  right: 92px;
+  right: 0px;
   top: 0;
   height: 40px;
   background: #373b40;
