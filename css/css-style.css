@@ -1171,11 +1171,7 @@ blockquote {
   z-index: 12;
    
 }
-.about,.service ,.resume,.skills, .contacts{
- display: flex;
- justify-content: center;
- align-items: center;
-}
+
 .section:last-child {
   border-bottom: none;
 }
@@ -1259,6 +1255,14 @@ blockquote {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
 }
+@media (max-width:1343px) {
+  .header .top-menu {
+    margin-right: 20px;
+  }
+  .header .top-menu ul li{
+    margin-left: 20px;
+  }
+}
 @media (max-width: 1199px) {
   .section {
     padding-left: 30px;
@@ -1268,6 +1272,17 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .about,.service ,.resume,.skill,.contacts{
+    display: flex;
+    justify-content: center;
+   
+   }
+  .works .content{
+    margin: 0 auto;
+  }
+  .section .titles .title{
+    text-align: center;
   }
 }
 @media (max-width: 720px) {
