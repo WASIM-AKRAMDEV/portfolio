@@ -1159,6 +1159,9 @@ blockquote {
   .background-bg {
     height: 450px;
   }
+  .header .top-menu ul li {
+    margin-left:0px !important;
+  }
 }
 .section {
   position: relative;
