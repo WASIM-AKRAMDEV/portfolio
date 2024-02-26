@@ -1355,6 +1355,7 @@ blockquote {
   margin: 0 0 30px 0;
   height: 18px;
 }
+
 .section.started .started-content .h-subtitle,
 .section.started .started-content .typed-subtitle,
 .section.started .started-content .typed-cursor {
@@ -1364,6 +1365,9 @@ blockquote {
   color: #68e0cf;
   font-weight: 600;
   text-transform: uppercase;
+}
+.section.started .started-content .typed-subtitle{
+  font-size: 18px;
 }
 .section.started .started-content .typed-cursor {
   margin-left: 3px;
@@ -2764,6 +2768,7 @@ blockquote {
 .box-items .box-item .desc a {
   text-decoration: none;
 }
+
 @media (max-width: 720px) {
   .section.works .filters label {
     margin-right: 8px;
@@ -3106,6 +3111,7 @@ object {
 .post .section.started .started-content .h-subtitle p,
 .error404 .section.started .started-content .h-subtitle p {
   margin: 0;
+
 }
 .blog .wrapper,
 .post .wrapper,
