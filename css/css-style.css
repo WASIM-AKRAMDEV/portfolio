@@ -2749,7 +2749,7 @@ blockquote {
   -o-transform: scale(0.5, 0.5);
 }
 .box-items .box-item .image .info .centrize {
-  background: #68e0cf;
+  background: #68e0cfcc;
 }
 .box-items .box-item .image .info .icon {
   color: #fff;
