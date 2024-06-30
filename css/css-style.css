@@ -2724,6 +2724,8 @@ blockquote {
   font-size: 18px !important ;
   font-weight: 600;
   color: #fff;
+  text-decoration: underline;
+  
 }
 .box-items .box-item .image a img {
   width: 100%;
