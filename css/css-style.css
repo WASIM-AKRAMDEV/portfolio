@@ -2689,6 +2689,7 @@ blockquote {
   position: relative;
   overflow: hidden;
   text-align: center;
+  border-radius:8px;
 }
 .box-items .box-item:hover .image .info {
   opacity: 1;
@@ -2699,6 +2700,7 @@ blockquote {
 }
 .box-items .box-item:hover .desc .name {
   color: #68e0cf;
+
 }
 .box-items .box-item .image {
   position: relative;
@@ -2750,6 +2752,7 @@ blockquote {
 }
 .box-items .box-item .image .info .centrize {
   background: #68e0cfcc;
+  border-radius:8px;
 }
 .box-items .box-item .image .info .icon {
   color: #fff;
