@@ -507,3 +507,14 @@
 		});
 	}
 } )( jQuery );
+
+function sendMail (){
+    let parms ={
+        name:document.getElementById("Name").value,
+        email:document.getElementById("email").value,
+        message:document.getElementById("message").value,
+        
+    }
+   emailjs.send("service_tmpb5td","template_e1rxnyc", parms).then(alert("Email Sent!!"))
+
+}
